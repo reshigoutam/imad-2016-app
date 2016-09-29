@@ -6,15 +6,13 @@ var element = document.getElementById("main-text");
 element.innerHTML = "New Value";
 
 // move the image
+
 var img = document.getElementById("madi");
 var marginleft = 0;
-function moveRight () {
-    marginleft = marginleft + 10;
-    img.style.marginleft = marginleft + "px";
+function moveRight() {
+    marginLeft = marginLeft + 1;
+    imag.style.marginLeft = marginLeft + "px";
 }
-img.onclick = function() {
-    var interval = setInterval(moveRight, 100px);
+imag.onclick = function () {
+    var interval = setInterval(moveRight, 50);
 };
-
-
-
