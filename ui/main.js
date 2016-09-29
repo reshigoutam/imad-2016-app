@@ -13,6 +13,6 @@ function moveRight() {
     marginLeft = marginLeft + 10;
     imag.style.marginLeft = marginLeft + "px";
 }
-madi.onclick = function () {
+img.onclick = function () {
     var interval = setInterval(moveRight, 100);
 };
